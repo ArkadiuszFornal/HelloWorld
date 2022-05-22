@@ -1,0 +1,19 @@
+#!bin/bash
+echo
+echo "This is test file"
+echo
+act_hostname=whoami
+pwd
+cd /home/$act_hostname
+echo "Hello $act_hostname!"
+echo "Do you want see your ditectory? y/n
+read answer
+if ("$answer"="y") them
+ls -l
+echo
+fi
+if ("$answer"="n") them
+echo "why not?"
+fi
+echo
+echo "Goodbye!"
